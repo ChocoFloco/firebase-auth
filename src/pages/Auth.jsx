@@ -13,12 +13,14 @@ import { auth } from '../firebase/config'
 import handleResetPassword from '../firebase/handleResetPassword'
 import handleRecoverEmail from '../firebase/handleRecoverEmail'
 import handleVerifyEmail from '../firebase/handleVerifyEmail'
+import { useAuthContext } from '../hooks/useAuthContext'
 import useLogin from '../hooks/useLogin'
 import useAlert from '../hooks/useAlert'
 import Loading from '../components/common/Loading'
 import Alerts from '../components/common/Alerts'
 
 const Auth = () => {
+  const { user } = useAuthContext()
   const navigate = useNavigate()
   const { login } = useLogin()
   const { message, setMessage, openAlert, setOpenAlert } = useAlert()
@@ -167,6 +169,7 @@ const Auth = () => {
                 <Button
                   variant="contained"
                   onClick={async () => {
+                    await user.reload()
                     navigate('/dashboard')
                   }}
                 >
