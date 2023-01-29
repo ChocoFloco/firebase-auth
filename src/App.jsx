@@ -28,9 +28,6 @@ const App = () => {
     if (authIsReady) setOpenLoading(false)
   }, [authIsReady, setOpenLoading])
 
-  console.log('APP')
-  console.log('user', user)
-
   return (
     <ThemeProvider theme={mainTheme}>
       <CssBaseline />
