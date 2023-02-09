@@ -169,7 +169,7 @@ const Auth = () => {
                 <Button
                   variant="contained"
                   onClick={async () => {
-                    await user.reload()
+                    user && (await user.reload())
                     navigate('/dashboard')
                   }}
                 >
