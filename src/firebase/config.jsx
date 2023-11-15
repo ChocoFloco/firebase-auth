@@ -4,12 +4,14 @@ import { getFirestore } from 'firebase/firestore'
 import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBq-Ov5Kv5q8-qmNDGrG_rex2kErHPMryA',
-  authDomain: 'portfolio-826d0.firebaseapp.com',
-  projectId: 'portfolio-826d0',
-  storageBucket: 'portfolio-826d0.appspot.com',
-  messagingSenderId: '664919029525',
-  appId: '1:664919029525:web:6cbd1df8df20188234db1c',
+   apiKey: "AIzaSyC7mybMry1LzLSlpsmXMlN_9LbcPogoW2g",
+  authDomain: "inverseprivate-304e0.firebaseapp.com",
+  databaseURL: "https://inverseprivate-304e0-default-rtdb.firebaseio.com",
+  projectId: "inverseprivate-304e0",
+  storageBucket: "inverseprivate-304e0.appspot.com",
+  messagingSenderId: "246587992179",
+  appId: "1:246587992179:web:aa224363a30a5e532ca206",
+  measurementId: "G-VWNPDLNQJ0"
 }
 
 // Initialize Firebase
