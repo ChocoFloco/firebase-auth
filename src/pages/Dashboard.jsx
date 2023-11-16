@@ -80,7 +80,7 @@ const Dashboard = () => {
   const deleteProject = async (id, projectName, confirmationProjectName) => {
     if (confirmationProjectName === projectName) {
       await deleteDocument(id)
-      setMessage(['Project removed successfully.'])
+      setMessage(['Link removed successfully.'])
       currentProjectName.current = undefined
       return true
     }
