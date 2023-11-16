@@ -281,12 +281,12 @@ const Dashboard = () => {
                       handleConfirm: () => {
                         return createProject(currentProjectName.current)
                       },
-                      dialogTitle: 'Add a Project',
+                      dialogTitle: 'Add a Link',
                       dialogContent: (
                         <TextField
                           autoFocus
                           value={currentProjectName.current}
-                          label="Project Name"
+                          label="Link Name"
                           InputLabelProps={{ shrink: true }}
                           onChange={(e) => {
                             currentProjectName.current = e.target.value
@@ -299,7 +299,7 @@ const Dashboard = () => {
                     })
                   }}
                 >
-                  Add Project
+                  Add Link
                 </Button>
               </div>
             </Grid>
