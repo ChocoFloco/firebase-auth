@@ -96,7 +96,7 @@ const Header = () => {
                 marginBottom: 0,
               }}
             >
-              FIREBASE AUTH APP
+              Inverse Private
             </Typography>
           </Box>
         </Hidden>
