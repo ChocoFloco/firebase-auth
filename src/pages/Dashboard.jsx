@@ -49,12 +49,12 @@ const Dashboard = () => {
         name: projectName,
       })
 
-      setMessage(['Project created successfully.'])
+      setMessage(['Link created successfully.'])
       currentProjectName.current = undefined
       return true
     }
 
-    setMessage([`Project '${projectName}' already exists.`, 'error'])
+    setMessage([`Link'${projectName}' already exists.`, 'error'])
     return false
   }
 
