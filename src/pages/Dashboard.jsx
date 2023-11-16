@@ -167,7 +167,7 @@ const Dashboard = () => {
   }
 
   const columns = [
-    { title: 'Links', field: 'name' },
+    { title: 'Links (such as https://inverse-home.vercel.app)', field: 'name' },
     {
       title: 'Actions',
       field: 'actions',
