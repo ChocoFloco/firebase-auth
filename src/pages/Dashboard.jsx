@@ -167,7 +167,7 @@ const Dashboard = () => {
   }
 
   const columns = [
-    { title: 'Project', field: 'name' },
+    { title: 'Links', field: 'name' },
     {
       title: 'Actions',
       field: 'actions',
