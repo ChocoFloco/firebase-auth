@@ -167,7 +167,7 @@ const Dashboard = () => {
   }
 
   const columns = [
-    { title: 'Links (such as https://inverse-home.vercel.app)', field: 'name' },
+    { title: 'Links', field: 'name' },
     {
       title: 'Actions',
       field: 'actions',
@@ -223,7 +223,12 @@ const Dashboard = () => {
             </br>
             <br>
             </br>
-            Your token is {user.uid}
+            Your Token is {user.uid}
+            <br>
+            </br>
+            <br>
+            </br>
+            Your Private link is <a href="https://ij9qxrhydtm0i5eyp40umm9xqgl2.vercel.app/">Here</a>
           </Typography>
           <Grid container spacing={2}>
             <Grid item xs={12}>
