@@ -221,6 +221,8 @@ const Dashboard = () => {
             Hello, {user.displayName} 👋
             <br>
             </br>
+            <br>
+            </br>
             Your token is {user.uid}
           </Typography>
           <Grid container spacing={2}>
