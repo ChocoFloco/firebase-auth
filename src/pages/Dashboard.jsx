@@ -223,12 +223,8 @@ const Dashboard = () => {
             </br>
             <br>
             </br>
-            Your Token is {user.uid}
-            <br>
-            </br>
-            <br>
-            </br>
-            Your Private link is <a href="https://ij9qxrhydtm0i5eyp40umm9xqgl2.vercel.app/">Here</a>
+            Your Private Link is https://{user.uid}.vercel.app
+            
           </Typography>
           <Grid container spacing={2}>
             <Grid item xs={12}>
