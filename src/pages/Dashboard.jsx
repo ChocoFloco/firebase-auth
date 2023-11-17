@@ -219,7 +219,7 @@ const Dashboard = () => {
         <Container maxWidth="md">
           <Typography component="h3" variant="h3">
             Hello, {user.displayName} 👋
-            Your token is {user.id}
+            Your token is {user.uid}
           </Typography>
           <Grid container spacing={2}>
             <Grid item xs={12}>
