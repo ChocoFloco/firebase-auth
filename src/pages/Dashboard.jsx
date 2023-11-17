@@ -219,6 +219,8 @@ const Dashboard = () => {
         <Container maxWidth="md">
           <Typography component="h3" variant="h3">
             Hello, {user.displayName} 👋
+            <br>
+            </br>
             Your token is {user.uid}
           </Typography>
           <Grid container spacing={2}>
